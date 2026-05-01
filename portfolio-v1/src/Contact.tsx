@@ -1,36 +1,35 @@
-import { useState } from "react";
-
 function Contact() {
     // JSX: Javascript XML
-    const handleSubmit = async (e) => {
-    e.preventDefault();
+const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    const formData = {
-        name: e.target.name.value,
-        from: e.target.from.value,
-        message: e.target.message.value,
-    };
+  const formData = new FormData(e.currentTarget);
 
-    try {
-        const res = await fetch("http://localhost:8080/api/v1/user/send_email", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/json",
-            },
-            body: JSON.stringify(formData),
-        });
+  const data = {
+    name: String(formData.get("name") || ""),
+    from: String(formData.get("from") || ""),
+    message: String(formData.get("message") || ""),
+  };
 
-        const data = await res.json();
+  try {
+    const res = await fetch("http://localhost:8080/api/v1/user/send_email", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    });
 
-        if (data.isSent) {
-            alert("Message sent successfully 🚀");
-        } else {
-            alert("Message failed ❌");
-        }
+    const response = await res.json();
 
-    } catch (err) {
-        alert(err);
+    if (response.isSent) {
+      alert("Message sent successfully 🚀");
+    } else {
+      alert("Message failed ❌");
     }
+  } catch (err) {
+    alert(String(err));
+  }
 };
 
     return (
