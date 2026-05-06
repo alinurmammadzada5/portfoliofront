@@ -15,14 +15,14 @@ function AboutMe(){
             <div className="accounts-container">
                 <h4>accounts</h4>
                 <div className="accounts-img-container">
-                    <a href="#"> <img src={gitLogo} alt="githubLogo" /> </a>
-                    <a href="#"> <img src={linkedinLogo} alt="linkedinLogo" /> </a>
-                    <a href="#"> <img src={instagramLogo} alt="instagramLogo" /> </a>
-                    <a href="#"> <img src={youtubeLogo} alt="youtubeLogo" /> </a>
+                    <a href="https://github.com/AlinurMammadzada5" target="_blank"> <img src={gitLogo} alt="githubLogo" /> </a>
+                    <a href="https://www.linkedin.com/in/alinur-mammadzada/" target="_blank"> <img src={linkedinLogo} alt="linkedinLogo" /> </a>
+                    <a href="https://www.instagram.com/alinur.codes/" target="_blank"> <img src={instagramLogo} alt="instagramLogo" /> </a>
+                    <a href="https://www.youtube.com/@Alinurzadas" target="_blank"> <img src={youtubeLogo} alt="youtubeLogo" /> </a>
                 
                 </div>
                 <div className="moreDetails">
-                    To get more details, you can text me via these social media accounts or through <a href="#">contact me</a> section
+                    To get more details, you can text me via these social media accounts or through <a href="#contactme">contact me</a> section
                 </div>
             </div>
         </section>

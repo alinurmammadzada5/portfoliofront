@@ -1,0 +1,27 @@
+.nav{
+  height: 100px;
+  width: 100%;
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  background: #393E46;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.nav-components img{
+  width: 160px;
+  height: 100px;
+  object-fit: cover;
+}
+
+@media (max-width: 600px) {
+    .nav{
+        height: 50px;
+    }
+    .nav-components img{
+        height: 50px;
+        width: 80px;
+    }
+}    

@@ -19,198 +19,6 @@ body{
   font-style: normal;
 }
 
-.nav{
-  height: 80px;
-  width: 100%;
-  position:fixed;
-  top: 0;
-  left: 0;
-  z-index: 1000;
-  background: #393E46;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-.nav-components img{
-  width: 132px;
-  height: 132px;
-}
-.hero {
-  height: 100vh;
-  position: relative;
-  background: #f5f5f5;
-}
-
-.content {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-
-.content h2{
-  font-size: 3.0rem;
-  color: #222831;
-}
-.content p{
-  font-size: 1.5rem;
-  text-decoration: underline;
-  color: #222831;
-}
-
-.profile {
-  width: 100%;
-  border-radius: 20px;
-}
-
-/* Floating icons */
-.icon {
-  position: absolute;
-}
-
-.java {
-  width: 13%;
-  right: 20%;
-  top: 30%;
-  transform: rotate(-15deg);
-}
-
-.spring {
-    width: 10%;
-  left: 20%;
-  bottom: 20%;
-    transform: rotate(15deg);
-}
-
-.kafka {
-  width: 14%;
-  right: 17%;
-  bottom: 20%;
-  transform: rotate(-15deg);
-}
-
-.code {
-  width: 12%;
-  left: 20%;
-  top: 30%;
-  transform: rotate(15deg);
-}
-.aboutMe{
-  margin-top: 100vh;
-  height: 100vh;
-  width: 100%;
-  display: flex;
-  flex-wrap: wrap;
- flex-direction: column;
- gap: 50px;
-  justify-content: center;
-  align-items: center;
-}
-.aboutMe h2{
-  text-align: center;
-  font-size: 2.5rem;
-}
-.aboutMe .aboutMe-container{
-  width: 50%;
-  height: 450px;
-  background-color: #393E46;
-  color: #ffffff;
-  font-size: 1.7rem;
-  border-radius: 50px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  overflow-y: scroll;
-}
-
-.aboutMe .accounts-container{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 250px;
-  width: 50%;
-  gap: 20px;
-}
-.aboutMe .accounts-container h4{
-  font-size: 2rem;
-}
-.aboutMe .accounts-container .accounts-img-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-wrap: wrap;
-  gap: 35px;
-}
-.aboutMe .accounts-container .moreDetails{
-  font-size: 1.4rem;
-}
-
-.aboutMe .accounts-container .moreDetails a{
-  color: #F96D00;
-}
-/* 
-
-
-
-
-
-*/
-#contactme{
-    width: 100%;
-    height: 300px;
-    display: flex;
-     flex-direction:column;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-#contactme h2{
-    color: #222831;
-    font-size: 2em;
-}
-#contactme form{
-    width: 40%;
-    height: 200px;
-    background-color: #393E46;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-}
-#contactme form input{
-    width: 90%;
-    height: 30px;
-    background: #222831;
-    padding-left: 5px;
-    color: white;
-}
-#contactme input::placeholder{
-    color: white;
-}
-#contactme form button{
-    background-color: #385170;
-    width: 150px;
-    height: 30px;
-    color: white;
-}
-#contactme p{
-  margin-top: 20px;
-  font-size: 1.2rem;
-  max-width: 90%;
-  text-align: center;
-  overflow-wrap: break-word;
-  word-break: break-word;
-  line-height: 1.4;
-}
-
 footer{
     width: 100%;
     height: 75px;
@@ -232,68 +40,6 @@ footer a:hover{
     color: #ececec;
 }
 
-#experience{
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-#experience h2{
-  font-size: 2.5rem;
-}
-.experince-container{
-  display: flex;
-  flex-direction: column;
- 
-  justify-content: center;
-  align-items: center;
-}
-.works-container{
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.workName{
-  font-size: 1.75rem;
-}
-.workPosition{
-  font-size: 1.3rem;
-}
-.worked{
-  font-size: 1.75rem;
-  text-align: center;
-  margin-top: 25px;
-  margin-bottom: 25px;
-}
-.worked-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.worked-container div{
-  font-size: 1.5rem;
-}
-.worked-container div strong{
-  color: #F96D00;
-}
-#experience h4{
-  font-size: 2rem;
-  margin-top: 35px;
-  text-align: center;
-}
-.techStack-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.techStack-container img{
-  width: 90%;
-}
 
 @media (max-width: 1024px) {
 
@@ -303,18 +49,6 @@ footer a:hover{
 
   .content p {
     font-size: 1.2rem;
-  }
-
-  .profile {
-    width: 90%;
-  }
-
-  .icon {
-    width: 20% !important;
-  }
-
-  .java, .spring, .kafka, .code {
-    width: 18%;
   }
 
   .aboutMe {
@@ -364,17 +98,6 @@ footer a:hover{
     text-align: center;
     padding: 0 10px;
   }
-
-  /* NAV */
-  .nav {
-    height: auto;
-    padding: 10px;
-  }
-
-  .nav-components img {
-    width: 90px;
-    height: 90px;
-  }
 }
 
 
@@ -415,7 +138,5 @@ footer a:hover{
     width: 120px;
   }
 
-  .icon {
-    display: none;
-  }
+
 }

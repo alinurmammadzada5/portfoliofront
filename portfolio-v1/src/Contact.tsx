@@ -23,12 +23,12 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     const response = await res.json();
 
     if (response.isSent) {
-      alert("Message sent successfully 🚀");
+      alert("Message is sent successfully. Wait for response");
     } else {
-      alert("Message failed ❌");
+      alert("Sending message failed. Try again later");
     }
   } catch (err) {
-    alert(String(err));
+    alert("Sending message failed.");
   }
 };
 

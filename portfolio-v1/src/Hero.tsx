@@ -1,4 +1,4 @@
-import heroImg from "./assets/Hero_IMG.png"
+import heroImg from "./assets/allyzada-profile-img.jpeg"
 import javaImg from "./assets/java_img.webp"
 import springImg from "./assets/spring_boot_img.png"
 import kafkaImg from "./assets/kafka_img.png"
