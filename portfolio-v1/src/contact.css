@@ -8,7 +8,7 @@
 }
 #contactme h2{
     color: #222831;
-    font-size: 3rem;
+    font-size: 2.5rem;
 }
 #contactme form{
     width: 40%;
@@ -30,7 +30,7 @@
 }
 #contactme input::placeholder{
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
 }
 #contactme form button{
     background-color: #385170;
@@ -40,7 +40,7 @@
 }
 #contactme p{
   margin-top: 20px;
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   max-width: 90%;
   text-align: center;
   overflow-wrap: break-word;
@@ -60,15 +60,15 @@
     }
     #contactme input::placeholder{
     color: white;
-    font-size: 1.4rem;
+    font-size: 1.2rem;
 }
 
 @media(max-width:768px){
     #contactme h2{
-    font-size: 2.2rem;
+    font-size: 2.0rem;
 }
     #contactme p{
-        font-size: 1.2rem;
+        font-size: 1rem;
     }
 }
 }
