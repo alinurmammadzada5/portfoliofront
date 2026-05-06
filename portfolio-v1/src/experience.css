@@ -1,0 +1,89 @@
+#experience{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  margin-top: -250px;
+}
+#experience h2{
+  font-size: 4rem;
+}
+.experince-container{
+  display: flex;
+  flex-direction: column;
+ 
+  justify-content: center;
+  align-items: center;
+}
+.works-container{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.workName{
+  font-size: 2.5rem;
+}
+.workPosition{
+  font-size: 1.75rem;
+}
+.worked{
+  font-size: 2.5rem;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+.worked-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.worked-container div{
+  font-size: 2.5rem;
+}
+.worked-container div strong{
+  color: #F96D00;
+}
+#experience h4{
+  font-size: 3rem;
+  margin-top: 35px;
+  text-align: center;
+}
+.techStack-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.techStack-container img{
+  width: 90%;
+}
+
+@media(max-width:1280px){
+    #experience{
+          margin-top: -150px;
+    }
+    #experience h2{
+  font-size: 2.7rem;
+}
+.workName{
+  font-size: 2rem;
+}
+.workPosition{
+  font-size: 1.3rem;
+}
+.worked{
+  font-size: 2.2rem;
+}
+#experience h4{
+  font-size: 2rem;
+}
+}
+@media (max-width:768px){
+        #experience{
+            margin-top: 50px;
+    }
+}
