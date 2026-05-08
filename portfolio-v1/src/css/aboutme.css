@@ -67,10 +67,14 @@
   font-size: 1.75rem;
 }
 .aboutMe .aboutMe-container{
-  font-size: 0.95rem;
+  font-size: 0.90rem;
 }
 .aboutMe .accounts-container h4{
   font-size: 1.5rem;
+}
+.accounts-img-container img{
+  width: 45px;
+  height: 45px;
 }
 }
 
