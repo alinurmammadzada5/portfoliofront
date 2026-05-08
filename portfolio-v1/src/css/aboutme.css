@@ -80,12 +80,12 @@
         gap: 30px;
     }
     .aboutMe .aboutMe-container{
-  font-size: 1.65rem;
+  font-size: 1.5rem;
 }
 
 @media (max-width:320px){
     .aboutMe .aboutMe-container{
-  font-size: 0.75rem;
+  font-size: 0.7rem;
 }
 }
 
