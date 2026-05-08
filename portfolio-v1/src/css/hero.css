@@ -103,36 +103,6 @@
 }
 
 
-/* @media (max-width:1920px) and (min-width:1080px){
-    .profile {
-  width: 80%;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px dashed #222831;
-}
-}
-
-@media (max-width:1920px) and (min-width:1280px){
-    .profile {
-  width: 80%;
-  height: 350px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px dashed #222831;
-}
-}
-
-
-@media (max-width:1279px) and (min-width:768px){
-    .profile {
-  width: 90%;
-  height: 200px;
-  object-fit: cover;
-  border-radius: 50%;
-  border: 5px dashed #222831;
-}
-} */
 
 @media (max-width:767px){
     .profile {
@@ -153,22 +123,22 @@
   .java{
       width: 20%;
   right: 7%;
-  top: 20%;
+  top: 15%;
   }
   .code{
     width: 20%;
     left: 7%;
-    top:20%;
+    top:15%;
   }
   .spring{
     width: 20%;
     left: 7%;
-    bottom: 10%;
+    bottom: 7%;
   }
   .kafka{
     width: 25%;
     right: 7%;
-    bottom: 15%;
+    bottom: 8%;
   }
 
 }
