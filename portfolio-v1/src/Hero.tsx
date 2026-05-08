@@ -10,9 +10,11 @@ function Hero(){
 
       <div className="content">
         <img src={heroImg} className="profile" />
-
+        <div className="content-info">
         <h2>I am Alinur Mammadzada</h2>
         <p>Java Backend Developer</p>
+        </div>
+
       </div>
 
 
