@@ -1,6 +1,7 @@
 #experience{
+  margin-top: 30px;
   width: 100%;
-  height: 650px;
+  height: 700px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -64,6 +65,9 @@
 
 @media(max-width:768px){
   .worked-container{
+    flex-direction: column;
+  }
+  .works-container{
     flex-direction: column;
   }
 }
