@@ -61,7 +61,6 @@
 @media (max-width: 768px) {
         .aboutMe{
         gap: 50px;
-        margin-top: 100vh;
     }
 .aboutMe h2{
   text-align: center;
@@ -90,10 +89,4 @@
 }
 }
 
-}
-
-@media(max-width:1280px){
-        .aboutMe{
-        margin-top: 70vh;
-    }
 }
