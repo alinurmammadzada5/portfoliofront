@@ -12,7 +12,7 @@ const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
   };
 
   try {
-    const res = await fetch("http://localhost:8080/api/v1/user/send_email", {
+    const res = await fetch("https://portfolio-email-service-ourq.onrender.com/api/v1/user/send_email", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
