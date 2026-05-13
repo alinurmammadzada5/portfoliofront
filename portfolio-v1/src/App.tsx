@@ -1,8 +1,8 @@
 import Navbar from "./Navbar";
 import Hero from "./Hero"
 import AboutMe from "./AboutMe";
-import Contact from "./Contact"
 import Footer from "./Footer";
+import Contact from "./Contact"
 import Experience from "./Experience";
 function App() {
   return <div>
@@ -10,8 +10,8 @@ function App() {
     <Hero />
     <AboutMe />
     <Experience />
-    <Contact />
-    <Footer />
+    <Contact /> 
+     <Footer />
     </div>
 }
 
